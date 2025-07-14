@@ -1,0 +1,105 @@
+.section-skills {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 120px;
+}
+
+.section-skills h2 {
+  margin-bottom: 64px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  max-width: 900px;
+}
+
+ul:first-of-type {
+  margin-bottom: 96px;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  padding: 16px 24px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--darkterracotta);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  white-space: nowrap;
+}
+
+.skill1 {
+  background-image: url(../assets/skill-backgrounds/skill-background-1.svg);
+}
+
+.skill2 {
+  background-image: url(../assets/skill-backgrounds/skill-background-2.svg);
+}
+
+.skill3 {
+  background-image: url(../assets/skill-backgrounds/skill-background-3.svg);
+}
+
+.skill4 {
+  background-image: url(../assets/skill-backgrounds/skill-background-4.svg);
+}
+
+.skill5 {
+  background-image: url(../assets/skill-backgrounds/skill-background-5.svg);
+}
+
+.skill6 {
+  background-image: url(../assets/skill-backgrounds/skill-background-6.svg);
+}
+
+.skill7 {
+  background-image: url(../assets/skill-backgrounds/skill-background-7.svg);
+}
+
+.skill8 {
+  background-image: url(../assets/skill-backgrounds/skill-background-8.svg);
+}
+
+.skill9 {
+  background-image: url(../assets/skill-backgrounds/skill-background-9.svg);
+}
+
+.skill10 {
+  background-image: url(../assets/skill-backgrounds/skill-background-10.svg);
+}
+
+.skill11 {
+  background-image: url(../assets/skill-backgrounds/skill-background-11.svg);
+}
+
+.skill12 {
+  background-image: url(../assets/skill-backgrounds/skill-background-12.svg);
+}
+
+.skill13 {
+  background-image: url(../assets/skill-backgrounds/skill-background-13.svg);
+}
+
+.skill14 {
+  background-image: url(../assets/skill-backgrounds/skill-background-14.svg);
+}
+
+.skill15 {
+  background-image: url(../assets/skill-backgrounds/skill-background-15.svg);
+}
+
+@media only screen and (max-width: 768px) {
+  .section-skills {
+    padding: 64px 32px;
+  }
+}

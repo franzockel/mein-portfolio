@@ -1,0 +1,14 @@
+.project-fabien-holzer h3,
+.project-fabien-holzer p.add-info {
+  margin-left: 25%;
+}
+
+.project-fabien-holzer div {
+  margin-left: calc(50% + 60px);
+}
+
+@media only screen and (max-width: 768px) {
+  .project-fabien-holzer div {
+    margin-left: 25%;
+  }
+}

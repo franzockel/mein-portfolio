@@ -1,0 +1,72 @@
+.vita-tile {
+  padding: 48px 64px 48px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: calc((100vw - 192px) / 3);
+  background-size: 100% 100%;
+}
+
+.vita-tile:nth-of-type(odd) {
+  margin-bottom: 64px;
+}
+
+.vita-tile:nth-of-type(even) {
+  margin-top: 64px;
+}
+
+.vita-tile:nth-of-type(1) {
+  background-image: url(../assets/vita-tile-backgrounds/vita-tile-background-1.svg);
+}
+
+.vita-tile:nth-of-type(2) {
+  background-image: url(../assets/vita-tile-backgrounds/vita-tile-background-2.svg);
+}
+
+.vita-tile:nth-of-type(3) {
+  background-image: url(../assets/vita-tile-backgrounds/vita-tile-background-3.svg);
+}
+
+.vita-tile:nth-of-type(4) {
+  background-image: url(../assets/vita-tile-backgrounds/vita-tile-background-4.svg);
+}
+
+.vita-tile:nth-of-type(5) {
+  background-image: url(../assets/vita-tile-backgrounds/vita-tile-background-5.svg);
+}
+
+.vita-tile:nth-of-type(6) {
+  background-image: url(../assets/vita-tile-backgrounds/vita-tile-background-6.svg);
+}
+
+.vita-tile:nth-of-type(7) {
+  background-image: url(../assets/vita-tile-backgrounds/vita-tile-background-7.svg);
+}
+
+.vita-tile p.add-info:nth-of-type(1) {
+  margin-bottom: 32px;
+}
+
+.vita-tile p.add-info:nth-of-type(2) {
+  margin-bottom: 48px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .vita-tile {
+    min-width: calc((100vw - 128px) / 2);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .vita-tile {
+    min-width: calc(100vw - 32px);
+  }
+
+  .vita-tile:nth-of-type(odd) {
+    margin-bottom: 0px;
+  }
+
+  .vita-tile:nth-of-type(even) {
+    margin-top: 0px;
+  }
+}

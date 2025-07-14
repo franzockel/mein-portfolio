@@ -1,0 +1,33 @@
+a {
+  font-family: "Fira Code", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 110%;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--darkgreen);
+  display: flex;
+  margin-top: 32px;
+}
+
+a span:nth-of-type(1) {
+  width: 48px;
+  display: inline-block;
+  transition: 300ms ease-out;
+}
+
+a:hover span:nth-of-type(1) {
+  transform: translate(100%, 0);
+  opacity: 0;
+}
+
+a span:nth-of-type(2) {
+  position: relative;
+  z-index: 1;
+  background-color: var(--background);
+}
+
+footer a span:nth-of-type(2) {
+  background-color: var(--beige);
+}

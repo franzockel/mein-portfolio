@@ -1,0 +1,90 @@
+:root {
+  --background: #fffae9;
+  --lightbeige: #eee5d3;
+  --beige: #c8b99f;
+  --lightgreen: #a9ab7a;
+  --green: #707322;
+  --darkgreen: #525925;
+  --lightterracotta: #d3b0a0;
+  --terracotta: #b57b60;
+  --darkterracotta: #844a29;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 110%;
+  color: var(--darkgreen);
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 64px;
+  margin-bottom: 96px;
+}
+
+h3 {
+  font-size: 40px;
+  margin-bottom: 96px;
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--darkgreen);
+}
+
+p.add-info {
+  font-family: "Fira Code", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 110%;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+section {
+  padding: 120px 120px 120px 96px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  section {
+    padding: 64px 32px;
+  }
+}

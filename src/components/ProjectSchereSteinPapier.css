@@ -1,0 +1,45 @@
+.project-schere-stein-papier {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 120px;
+  padding-left: 120px;
+}
+
+.project-schere-stein-papier img {
+  margin-top: 12px;
+  max-width: 40%;
+}
+
+.project-schere-stein-papier div {
+  max-width: 400px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .project-schere-stein-papier {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 96px;
+    padding: 0;
+  }
+
+  .project-schere-stein-papier img {
+    margin-top: 0;
+    margin-left: 96px;
+    max-width: 40%;
+  }
+
+  .project-schere-stein-papier > div {
+    align-self: flex-end;
+    margin-left: 12%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-schere-stein-papier img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}

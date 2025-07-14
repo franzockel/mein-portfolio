@@ -1,0 +1,14 @@
+.section-projects {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  gap: 240px;
+}
+
+.section-projects h2 {
+  text-align: end;
+}
+
+.section-projects .intro {
+  max-width: 480px;
+}
