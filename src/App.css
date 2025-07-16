@@ -10,6 +10,38 @@
   --darkterracotta: #844a29;
 }
 
+@font-face {
+  font-display: swap;
+  font-family: "Platypi";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./assets/fonts/platypi-v5-latin-800.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/fira-sans-v17-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/fira-sans-v17-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/fira-code-v26-latin-regular.woff2") format("woff2");
+}
+
 * {
   padding: 0;
   margin: 0;

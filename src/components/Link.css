@@ -28,6 +28,6 @@ a span:nth-of-type(2) {
   background-color: var(--background);
 }
 
-footer a span:nth-of-type(2) {
+.call-to-action a span:nth-of-type(2) {
   background-color: var(--beige);
 }

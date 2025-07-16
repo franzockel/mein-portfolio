@@ -5,6 +5,7 @@ import SectionAbout from "./components/SectionAbout";
 import SectionVita from "./components/SectionVita";
 import SektionSkills from "./components/SectionSkills";
 import Projects from "./components/Projects";
+import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <SectionVita />
       <SektionSkills />
       <Projects />
+      <CallToAction />
       <Footer />
     </div>
   );

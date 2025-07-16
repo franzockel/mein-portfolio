@@ -10,7 +10,7 @@
   margin-bottom: 64px;
 }
 
-ul {
+.section-skills ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -18,11 +18,11 @@ ul {
   max-width: 900px;
 }
 
-ul:first-of-type {
+.section-skills ul:first-of-type {
   margin-bottom: 96px;
 }
 
-li {
+.section-skills li {
   display: flex;
   list-style: none;
   padding: 16px 24px;
