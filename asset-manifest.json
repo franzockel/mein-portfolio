@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/mein-portfolio/static/css/main.193539d4.css",
-    "main.js": "/mein-portfolio/static/js/main.747fe345.js",
+    "main.css": "/mein-portfolio/static/css/main.cf30783a.css",
+    "main.js": "/mein-portfolio/static/js/main.0f2d45b7.js",
     "static/js/453.a5b25d5b.chunk.js": "/mein-portfolio/static/js/453.a5b25d5b.chunk.js",
     "static/media/about-image.png": "/mein-portfolio/static/media/about-image.8be36f7b17a3a226c498.png",
     "static/media/hack4thefuture-image.png": "/mein-portfolio/static/media/hack4thefuture-image.bf3551c5474399ae5766.png",
     "static/media/schere-stein-papier-image.png": "/mein-portfolio/static/media/schere-stein-papier-image.f2c777a6468d5d7d6320.png",
+    "static/media/fira-sans-v17-latin-700.woff2": "/mein-portfolio/static/media/fira-sans-v17-latin-700.aec316a912780fad8351.woff2",
+    "static/media/fira-sans-v17-latin-regular.woff2": "/mein-portfolio/static/media/fira-sans-v17-latin-regular.c695d16a680a5cbebd3d.woff2",
+    "static/media/fira-code-v26-latin-regular.woff2": "/mein-portfolio/static/media/fira-code-v26-latin-regular.d1be2246107f9bc07d21.woff2",
+    "static/media/platypi-v5-latin-800.woff2": "/mein-portfolio/static/media/platypi-v5-latin-800.78ee8ac9956e81e304c4.woff2",
     "static/media/header-right-top.svg": "/mein-portfolio/static/media/header-right-top.bdcd41a0f4f0f372daea.svg",
     "static/media/header-left-top.svg": "/mein-portfolio/static/media/header-left-top.e3a813c6cb54b8464366.svg",
     "static/media/header-left-bottom.svg": "/mein-portfolio/static/media/header-left-bottom.3e6a4f9d4a8c48672a7d0ded5bf34a1f.svg",
-    "index.html": "/mein-portfolio/index.html",
     "static/media/vita-tile-background-7.svg": "/mein-portfolio/static/media/vita-tile-background-7.d79d9d481d89eaf60fed.svg",
     "static/media/vita-tile-background-4.svg": "/mein-portfolio/static/media/vita-tile-background-4.5b5ae56657c4677214b0.svg",
     "static/media/vita-tile-background-6.svg": "/mein-portfolio/static/media/vita-tile-background-6.36582805f96731668073.svg",
@@ -20,6 +23,7 @@
     "static/media/skill-background-5.svg": "/mein-portfolio/static/media/skill-background-5.f843a6a3e132965172a4.svg",
     "static/media/skill-background-15.svg": "/mein-portfolio/static/media/skill-background-15.7461fa45b8f5e81fb85c.svg",
     "static/media/skill-background-12.svg": "/mein-portfolio/static/media/skill-background-12.0a83734d5ca1e6bf8b0e.svg",
+    "index.html": "/mein-portfolio/index.html",
     "static/media/skill-background-7.svg": "/mein-portfolio/static/media/skill-background-7.2b362150e21a9c7a8a78.svg",
     "static/media/vita-tile-background-1.svg": "/mein-portfolio/static/media/vita-tile-background-1.81226a2624525ec870bd.svg",
     "static/media/skill-background-1.svg": "/mein-portfolio/static/media/skill-background-1.826bcb73b6b4e4973aeb.svg",
@@ -32,13 +36,13 @@
     "static/media/skill-background-14.svg": "/mein-portfolio/static/media/skill-background-14.f2f4f94790e093029b11.svg",
     "static/media/skill-background-8.svg": "/mein-portfolio/static/media/skill-background-8.513723ab6adf1db4c8b6.svg",
     "static/media/skill-background-13.svg": "/mein-portfolio/static/media/skill-background-13.493ccf78f9150ed0becb.svg",
-    "static/media/footer-decoration.svg": "/mein-portfolio/static/media/footer-decoration.a33b77f4bada471ce8b6.svg",
-    "main.193539d4.css.map": "/mein-portfolio/static/css/main.193539d4.css.map",
-    "main.747fe345.js.map": "/mein-portfolio/static/js/main.747fe345.js.map",
+    "static/media/call-to-action-decoration.svg": "/mein-portfolio/static/media/call-to-action-decoration.a33b77f4bada471ce8b6.svg",
+    "main.cf30783a.css.map": "/mein-portfolio/static/css/main.cf30783a.css.map",
+    "main.0f2d45b7.js.map": "/mein-portfolio/static/js/main.0f2d45b7.js.map",
     "453.a5b25d5b.chunk.js.map": "/mein-portfolio/static/js/453.a5b25d5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.193539d4.css",
-    "static/js/main.747fe345.js"
+    "static/css/main.cf30783a.css",
+    "static/js/main.0f2d45b7.js"
   ]
 }
